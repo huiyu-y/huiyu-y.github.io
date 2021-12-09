@@ -100,6 +100,19 @@ var swiper5 = new Swiper(".swiper5", {
   plugins: [SwiperPluginNavigation]
 });
 
+var swiper6 = new Swiper(".swiper6", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl6",
+    nextEl: ".navigation-nextEl6"
+  },
+  plugins: [SwiperPluginNavigation]
+});
+
+
 
 
 
