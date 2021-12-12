@@ -160,8 +160,9 @@ const options = {
         // responsive: true,
         title: false,
         portrait: false,
-        color: '0000ff',
-        byline: false
+        byline: false,
+        controls: false,
+        color: '0000ff'
     };
 
 
