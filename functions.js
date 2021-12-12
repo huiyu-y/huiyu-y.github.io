@@ -93,11 +93,11 @@ var swiper5 = new Swiper(".swiper5", {
     invert: false,
     interval: 400
   },
-  navigation: {
-    prevEl: ".navigation-prevEl4",
-    nextEl: ".navigation-nextEl4"
-  },
-  plugins: [SwiperPluginNavigation]
+  // navigation: {
+  //   prevEl: ".navigation-prevEl5",
+  //   nextEl: ".navigation-nextEl5"
+  // },
+  // plugins: [SwiperPluginNavigation]
 });
 
 var swiper6 = new Swiper(".swiper6", {
@@ -112,14 +112,50 @@ var swiper6 = new Swiper(".swiper6", {
   plugins: [SwiperPluginNavigation]
 });
 
+var swiper7 = new Swiper(".swiper7", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl7",
+    nextEl: ".navigation-nextEl7"
+  },
+  plugins: [SwiperPluginNavigation]
+});
+
+var swiper8 = new Swiper(".swiper8", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  // navigation: {
+  //   prevEl: ".navigation-prevEl8",
+  //   nextEl: ".navigation-nextEl8"
+  // },
+  // plugins: [SwiperPluginNavigation]
+});
+
+var swiper9 = new Swiper(".swiper9", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl9",
+    nextEl: ".navigation-nextEl9"
+  },
+  plugins: [SwiperPluginNavigation]
+});
 
 
 
 
-// const playerTwoPlayer = new Vimeo.Player('playerchina');
-// playerTwoPlayer.on('play', function() {
-//     console.log('played the player 2.0 video!');
-// });
+
+const playerTwoPlayer = new Vimeo.Player('playerchina');
+playerTwoPlayer.on('play', function() {
+    console.log('played the player 2.0 video!');
+});
 
 const options = {
         responsive: true,
