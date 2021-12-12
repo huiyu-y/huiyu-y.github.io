@@ -156,14 +156,15 @@ const playerTwoPlayer = new Vimeo.Player('playerchina');
 playerTwoPlayer.on('play', function() {
     console.log('played the player 2.0 video!');
 });
-
 const options = {
-        responsive: true,
+        // responsive: true,
         title: false,
         portrait: false,
-        byline: false,
-        color: '000aff'
+        color: '001aff',
+        byline: false
     };
+
+
 
     // Will create inside the made-in-ny div:
     // <iframe src="https://player.vimeo.com/video/59777392?h=ab882a04fd&loop=1" width="640" height="360" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>

@@ -384,13 +384,13 @@ a{
 
 
 .square-img{
-  width: 100px;
+  width: 100%;
 }
 
-#playerchina{
+/* #playerchina{
   width: 100%;
   height: 100px;
-}
+} */
 
 
 .space{
