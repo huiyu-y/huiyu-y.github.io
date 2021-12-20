@@ -83,6 +83,10 @@ a{
   z-index: 1;
 }
 
+.responsive-logo{
+  display: none;
+}
+
 .sky {
   /* background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 19%, rgba(0, 0, 0, 0.88) 100%); */
@@ -238,14 +242,12 @@ a{
 
 
 .right {
-  /* background: rgb(187, 255, 17); */
   position: absolute;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
   align-content: flex-start;
   right: 0px;
-  /* border: solid black 1px; */
   width: 78%;
   top: 6.2rem;
   z-index: 1;
@@ -411,13 +413,6 @@ a{
   /* border-top: dotted 1px red; */
 }
 
-
-/* 手機版
-書變成橫擺在最上方
-right變成100% */
-
-
-
 @keyframes airplane {
   from {
     right: 0rem;
@@ -425,4 +420,75 @@ right變成100% */
 
   to {
     right: 100vw;
+  }
+  }
+
+/* 手機版
+書變成橫擺在最上方
+right變成100% */
+
+@media screen and (max-width: 1024px) {
+
+  .menu {
+     transform: rotate(2deg);
+  }
+
+  .right {
+    width: 85%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 200%;
+  }
+
+    .drag{
+      display: none;
+    }
+
+    .responsive-logo{
+      display: block;
+      color: rgb(0, 10, 255);
+      position: fixed;
+      top: 0;
+      left: 2%;
+      font-size: 20px
+    }
+
+    .left {
+      /* background: rgb(231, 217, 118); */
+      display: none;
+    }
+
+    .right {
+      display: block;
+      flex-direction: row;
+      width: 98%;
+      top: 2rem;
+    }
+
+    .right-box{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-flow: wrap;
+    }
+
+    .info{
+      width: 100%;
+      text-align: left;
+      font-size: 15px;
+    }
+
+    .info-title{
+    font-size: 15px;
+    }
+
+    .space{
+      height: 10px;
+    }
   }
