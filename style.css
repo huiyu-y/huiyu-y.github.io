@@ -413,6 +413,30 @@ a{
   /* border-top: dotted 1px red; */
 }
 
+.info-text{
+  font-size: 16px;
+}
+
+/* willful-garden intro */
+.left-intro{
+  font-size: 13px;
+  color: rgba(255, 122, 238, 0.99);
+}
+
+.garden-info{
+  font-size: 13.5px;
+  color: red;
+}
+
+.quote{
+  font-style: italic;
+  display: inline-block;
+  padding-left:3%;
+  color: rgb(249, 77, 31);
+}
+
+
+
 @keyframes airplane {
   from {
     right: 0rem;
@@ -435,6 +459,10 @@ right變成100% */
 
   .right {
     width: 85%;
+  }
+
+  .info-text{
+    font-size: 12px;
   }
 
 }
@@ -490,5 +518,9 @@ right變成100% */
 
     .space{
       height: 10px;
+    }
+
+    .info-text{
+      font-size: 10px;
     }
   }

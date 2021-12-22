@@ -52,40 +52,40 @@ var swiper1 = new Swiper(".swiper1", {
   plugins: [SwiperPluginNavigation]
 });
 
-// var swiper2 = new Swiper(".swiper2", {
-//   mousewheel: {
-//     invert: false,
-//     interval: 400
-//   },
-//   navigation: {
-//     prevEl: ".navigation-prevEl2",
-//     nextEl: ".navigation-nextEl2"
-//   },
-//   plugins: [SwiperPluginNavigation]
-// });
-//
-// var swiper3 = new Swiper(".swiper3", {
-//   mousewheel: {
-//     invert: false,
-//     interval: 400
-//   },
-//   navigation: {
-//     prevEl: ".navigation-prevEl3",
-//     nextEl: ".navigation-nextEl3"
-//   },
-//   plugins: [SwiperPluginNavigation]
-// });
+var swiper2 = new Swiper(".swiper2", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl2",
+    nextEl: ".navigation-nextEl2"
+  },
+  plugins: [SwiperPluginNavigation]
+});
+
+var swiper3 = new Swiper(".swiper3", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  // navigation: {
+  //   prevEl: ".navigation-prevEl3",
+  //   nextEl: ".navigation-nextEl3"
+  // },
+  // plugins: [SwiperPluginNavigation]
+});
 
 var swiper4 = new Swiper(".swiper4", {
   mousewheel: {
     invert: false,
     interval: 400
   },
-  navigation: {
-    prevEl: ".navigation-prevEl4",
-    nextEl: ".navigation-nextEl4"
-  },
-  plugins: [SwiperPluginNavigation]
+  // navigation: {
+  //   prevEl: ".navigation-prevEl4",
+  //   nextEl: ".navigation-nextEl4"
+  // },
+  // plugins: [SwiperPluginNavigation]
 });
 
 var swiper5 = new Swiper(".swiper5", {
@@ -93,11 +93,11 @@ var swiper5 = new Swiper(".swiper5", {
     invert: false,
     interval: 400
   },
-  // navigation: {
-  //   prevEl: ".navigation-prevEl5",
-  //   nextEl: ".navigation-nextEl5"
-  // },
-  // plugins: [SwiperPluginNavigation]
+  navigation: {
+    prevEl: ".navigation-prevEl5",
+    nextEl: ".navigation-nextEl5"
+  },
+  plugins: [SwiperPluginNavigation]
 });
 
 var swiper6 = new Swiper(".swiper6", {
@@ -129,11 +129,11 @@ var swiper8 = new Swiper(".swiper8", {
     invert: false,
     interval: 400
   },
-  // navigation: {
-  //   prevEl: ".navigation-prevEl8",
-  //   nextEl: ".navigation-nextEl8"
-  // },
-  // plugins: [SwiperPluginNavigation]
+  navigation: {
+    prevEl: ".navigation-prevEl8",
+    nextEl: ".navigation-nextEl8"
+  },
+  plugins: [SwiperPluginNavigation]
 });
 
 var swiper9 = new Swiper(".swiper9", {
@@ -141,13 +141,37 @@ var swiper9 = new Swiper(".swiper9", {
     invert: false,
     interval: 400
   },
+  // navigation: {
+  //   prevEl: ".navigation-prevEl9",
+  //   nextEl: ".navigation-nextEl9"
+  // },
+  // plugins: [SwiperPluginNavigation]
+});
+
+
+var swiper10 = new Swiper(".swiper10", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
   navigation: {
-    prevEl: ".navigation-prevEl9",
-    nextEl: ".navigation-nextEl9"
+    prevEl: ".navigation-prevEl10",
+    nextEl: ".navigation-nextEl10"
   },
   plugins: [SwiperPluginNavigation]
 });
 
+// var swiper11 = new Swiper(".swiper11", {
+//   mousewheel: {
+//     invert: false,
+//     interval: 400
+//   },
+//   navigation: {
+//     prevEl: ".navigation-prevEl11",
+//     nextEl: ".navigation-nextEl11"
+//   },
+//   plugins: [SwiperPluginNavigation]
+// });
 
 
 
