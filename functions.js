@@ -161,17 +161,17 @@ var swiper10 = new Swiper(".swiper10", {
   plugins: [SwiperPluginNavigation]
 });
 
-// var swiper11 = new Swiper(".swiper11", {
-//   mousewheel: {
-//     invert: false,
-//     interval: 400
-//   },
-//   navigation: {
-//     prevEl: ".navigation-prevEl11",
-//     nextEl: ".navigation-nextEl11"
-//   },
-//   plugins: [SwiperPluginNavigation]
-// });
+var swiper11 = new Swiper(".swiper11", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl11",
+    nextEl: ".navigation-nextEl11"
+  },
+  plugins: [SwiperPluginNavigation]
+});
 
 
 
@@ -186,7 +186,7 @@ const options = {
         portrait: false,
         byline: false,
         controls: false,
-        color: '0000ff'
+        color: '0000ff',
     };
 
 
