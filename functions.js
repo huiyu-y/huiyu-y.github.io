@@ -45,11 +45,11 @@ var swiper1 = new Swiper(".swiper1", {
     invert: false,
     interval: 400
   },
-  navigation: {
-    prevEl: ".navigation-prevEl1",
-    nextEl: ".navigation-nextEl1"
-  },
-  plugins: [SwiperPluginNavigation]
+  // navigation: {
+  //   prevEl: ".navigation-prevEl1",
+  //   nextEl: ".navigation-nextEl1"
+  // },
+  // plugins: [SwiperPluginNavigation]
 });
 
 var swiper2 = new Swiper(".swiper2", {
@@ -173,29 +173,29 @@ var swiper11 = new Swiper(".swiper11", {
   plugins: [SwiperPluginNavigation]
 });
 
-
-
-
-const playerTwoPlayer = new Vimeo.Player('playerchina');
-playerTwoPlayer.on('play', function() {
-    console.log('played the player 2.0 video!');
+var swiper12 = new Swiper(".swiper12", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl12",
+    nextEl: ".navigation-nextEl12"
+  },
+  plugins: [SwiperPluginNavigation]
 });
-const options = {
-        // responsive: true,
-        title: false,
-        portrait: false,
-        byline: false,
-        controls: false,
-        color: '0000ff',
-    };
 
-
-
-
-
-    // Will create inside the made-in-ny div:
-    // <iframe src="https://player.vimeo.com/video/59777392?h=ab882a04fd&loop=1" width="640" height="360" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
-    // const playerchina = new Vimeo.Player('playerchina', options);
+var swiper13 = new Swiper(".swiper13", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl13",
+    nextEl: ".navigation-nextEl13"
+  },
+  plugins: [SwiperPluginNavigation]
+});
 
 
     $("#airplane2").hide();
@@ -263,3 +263,19 @@ const options = {
         document.getElementById("demo").innerHTML = "EXPIRED";
       }
     }, 1000);
+
+
+    const options = {
+      title: false,
+      portrait: false,
+      byline: false,
+      controls: false,
+      loop: true,
+      color: '0000ff'
+    };
+
+const playerchinaPlayer = new Vimeo.Player('playerchina', options);
+
+const playerstonePlayer = new Vimeo.Player('playerstone', options);
+
+const playerwindowPlayer = new Vimeo.Player('playerwindow', options);
