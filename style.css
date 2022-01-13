@@ -35,8 +35,8 @@ a{
 
 .season2 {
   position: fixed;
-  right: 15%;
-  bottom: 20%;
+  left: 3%;
+  bottom: -12%;
   width: 200px;
   height: 200px;
   /* background: rgb(251, 5, 241); */
