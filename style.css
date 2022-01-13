@@ -313,6 +313,13 @@ a{
   object-position: top;
 }
 
+.poster-half{
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-position: top;
+}
+
 .number{
   text-align: center;
 }

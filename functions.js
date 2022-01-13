@@ -45,11 +45,11 @@ var swiper1 = new Swiper(".swiper1", {
     invert: false,
     interval: 400
   },
-  // navigation: {
-  //   prevEl: ".navigation-prevEl1",
-  //   nextEl: ".navigation-nextEl1"
-  // },
-  // plugins: [SwiperPluginNavigation]
+  navigation: {
+    prevEl: ".navigation-prevEl1",
+    nextEl: ".navigation-nextEl1"
+  },
+  plugins: [SwiperPluginNavigation]
 });
 
 var swiper2 = new Swiper(".swiper2", {
@@ -136,17 +136,17 @@ var swiper8 = new Swiper(".swiper8", {
   plugins: [SwiperPluginNavigation]
 });
 
-var swiper9 = new Swiper(".swiper9", {
-  mousewheel: {
-    invert: false,
-    interval: 400
-  },
-  // navigation: {
-  //   prevEl: ".navigation-prevEl9",
-  //   nextEl: ".navigation-nextEl9"
-  // },
-  // plugins: [SwiperPluginNavigation]
-});
+// var swiper9 = new Swiper(".swiper9", {
+//   mousewheel: {
+//     invert: false,
+//     interval: 400
+//   },
+//   // navigation: {
+//   //   prevEl: ".navigation-prevEl9",
+//   //   nextEl: ".navigation-nextEl9"
+//   // },
+//   // plugins: [SwiperPluginNavigation]
+// });
 
 
 var swiper10 = new Swiper(".swiper10", {
@@ -194,6 +194,28 @@ var swiper13 = new Swiper(".swiper13", {
     prevEl: ".navigation-prevEl13",
     nextEl: ".navigation-nextEl13"
   },
+  plugins: [SwiperPluginNavigation]
+});
+
+// var swiper14 = new Swiper(".swiper14", {
+//   mousewheel: {
+//     invert: false,
+//     interval: 400
+//   },
+//   // navigation: {
+//   //   prevEl: ".navigation-prevEl14",
+//   //   nextEl: ".navigation-nextEl14"
+//   // },
+//   plugins: [SwiperPluginNavigation]
+// });
+
+
+var swiper15 = new Swiper(".swiper15", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+
   plugins: [SwiperPluginNavigation]
 });
 
