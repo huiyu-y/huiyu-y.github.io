@@ -174,8 +174,8 @@ a{
 }
 
 .spine {
-  background: rgb(0, 10, 255);
-  color: rgb(255, 255, 255);
+  /* background: rgb(0, 10, 255); */
+  color: rgb(0, 10, 255);
   height: 100%;
   display: flex;
   flex-direction: column;
