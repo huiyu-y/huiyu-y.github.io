@@ -219,6 +219,30 @@ var swiper15 = new Swiper(".swiper15", {
   plugins: [SwiperPluginNavigation]
 });
 
+var swiper16 = new Swiper(".swiper16", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl16",
+    nextEl: ".navigation-nextEl16"
+  },
+  plugins: [SwiperPluginNavigation]
+});
+
+var swiper17 = new Swiper(".swiper17", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  navigation: {
+    prevEl: ".navigation-prevEl17",
+    nextEl: ".navigation-nextEl17"
+  },
+  plugins: [SwiperPluginNavigation]
+});
+
 
     $("#airplane2").hide();
     $("#draggable4").hide();
