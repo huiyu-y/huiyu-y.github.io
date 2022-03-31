@@ -169,6 +169,7 @@ a{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   cursor: move;
+  text-decoration: none;
 }
 
 
