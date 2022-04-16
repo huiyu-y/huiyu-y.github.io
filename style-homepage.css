@@ -1,0 +1,560 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 13 px;
+  font-family: 'Playfair Display', serif;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr{
+  border: none;
+}
+
+a{
+  font-style: none;
+  text-decoration: none;
+  color: inherit;
+  cursor: move;
+}
+
+.season1 {
+  position: fixed;
+  left: 6%;
+  bottom: -3%;
+  width: 80px;
+  height: 80px;
+  /* background: rgb(26, 251, 5); */
+  z-index: 1;
+}
+
+.season2 {
+  position: fixed;
+  left: 3%;
+  bottom: -12%;
+  width: 200px;
+  height: 200px;
+  /* background: rgb(251, 5, 241); */
+  z-index: 1;
+}
+
+.season3 {
+  position: fixed;
+  left: 34%;
+  bottom: 40%;
+  width: 150px;
+  height: 150px;
+  /* background: rgb(251, 249, 5); */
+  z-index: 1;
+}
+
+.season4 {
+  position: fixed;
+  left: 8%;
+  bottom: 26%;
+  width: 230px;
+  height: 230px;
+  /* background: rgb(251, 249, 5); */
+  z-index: 1;
+}
+
+.season5 {
+  position: fixed;
+  right: 30%;
+  bottom: 40%;
+  width: 100px;
+  height: 100px;
+  /* background: rgb(251, 249, 5); */
+  z-index: 1;
+}
+
+.season6 {
+  position: fixed;
+  left: 0%;
+  bottom: -9%;
+  width: 280px;
+  height: 280px;
+  /* background: rgb(251, 249, 5); */
+  z-index: 1;
+}
+
+.responsive-logo{
+  display: none;
+}
+
+.sky {
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 19%, rgba(0, 0, 0, 0.88) 100%); */
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+}
+
+#airplane1 {
+  position: absolute;
+  top: 0.2rem;
+  right: 6rem;
+  width: 0.7rem;
+  height: auto;
+    /*background: rgb(0, 26, 255); */
+  filter: blur(0px);
+  animation-name: airplane;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  cursor: move;
+}
+
+#airplane2 {
+  position: absolute;
+  top: 0.2rem;
+  right: 6rem;
+  width: 0.7rem;
+  height: auto;
+    /*background: rgb(0, 26, 255); */
+  filter: blur(0px);
+  animation-name: airplane;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  cursor: move;
+}
+
+#clock {
+  /* background: rgb(237, 189, 241); */
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  z-index: 999;
+}
+
+#clock-tw {
+  /* background: rgb(237, 189, 241); */
+  height: 100%;
+  position: absolute;
+  right: 1.5rem;
+  z-index: 999;
+}
+
+/* .text-box {
+  background: rgb(223, 223, 223);
+  position: fixed;
+  left: 35%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  width: 13rem;
+  height: 20rem;
+} */
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+} */
+
+.motion{
+  /* color: rgb(75, 107, 249); */
+  font-size: 18px;
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  cursor: move;
+}
+
+
+.bookshelf {
+  /* background: rgb(231, 217, 118); */
+  position: fixed;
+  top: 0px;
+  left: 3.5%;
+  background: white;
+  width: 2.5rem;
+  height: 100%;
+  z-index: -1;
+  /* width:100vh; */
+}
+
+.spine {
+  /* background: rgb(0, 10, 255); */
+  color: rgb(0, 10, 255);
+  height: 100%;
+  display: flex;
+  top: -1%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  position: relative;
+   transform: rotate(5deg);
+}
+
+/* .menu-rotate {
+  -webkit-transform:rotate(0deg);
+  -webkit-transition-duration: 1s;
+} */
+
+.menu-rotate-2 {
+  -webkit-transition-delay: 0.5s;
+  /* -webkit-transform:rotate(5deg); */
+  -webkit-transition-duration: 1.5s;
+
+}
+
+
+.title {
+  display: inline;
+  text-decoration: line-through;
+  /* background: rgb(213, 137, 219); */
+  /* transform: rotate(-90deg);
+  position: relative; */
+  text-orientation:mixed;
+  /* transform:rotate(270deg); */
+  margin: 1rem;
+  font-size: 10px;
+}
+
+.list {
+  margin: 0.2rem;
+  font-size: 11px;
+  font-weight: 500;
+  /* background: rgb(249, 12, 182); */
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: center;
+  /* max-height:300px; */
+  writing-mode: vertical-rl;
+  text-orientation:mixed;
+  transform:rotate(180deg);
+  grid-gap: 0.3rem;
+}
+
+.list-name{
+  /* background: rgb(161, 167, 31); */
+  /* transform: rotate(-90deg); */
+}
+
+.list-down{
+  margin: 0.2rem;
+  /* background: rgb(100, 141, 247); */
+  text-align: center;
+}
+
+
+.books {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-content: flex-start;
+  right: 0px;
+  width: 78%;
+  top: 6.2rem;
+  z-index: 1;
+}
+
+.book-cover{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-flow:nowrap;
+  align-content: space-between;
+}
+
+
+
+.poster-half{
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-position: top;
+}
+
+.number{
+  text-align: center;
+}
+
+.info{
+  width: 22%;
+  text-align: left;
+  font-size: 12px;
+}
+
+.catagory{
+  color: rgb(0, 10, 255);
+  font-size: 20px;
+}
+
+.catagory a{
+  text-decoration: underline;
+}
+
+.weave-1{
+  font-size: 25px;
+}
+
+.weave-0{
+  font-size: 20px;
+}
+
+.weave{
+  font-size: 10px;
+}
+
+.weave-right-align-0{
+  text-align: right;
+  transform: translate(-42%,-50%);
+  font-size: 10px;
+}
+
+.weave-right-align{
+  text-align: right;
+  transform: translate(-35%,-70%);
+  font-size: 10px;
+}
+
+.weave-right-align-1{
+  text-align: right;
+  transform: translate(-26%,-110%);
+  font-size: 10px;
+}
+
+.weave-right-align-2{
+  text-align: right;
+  transform: translate(-8%,-130%);
+  font-size: 10px;
+}
+
+.info-title{
+  font-style: italic;
+  font-size: 13px;
+}
+
+.info-link{
+  color: rgb(0, 10, 255);
+  cursor: move;
+}
+
+/* plugin pagination */
+.swiper-plugin-pagination {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 2.2rem;
+  width: 0.5rem;
+  transform: translateY(-50%);
+
+  &__item {
+    display: block;
+    margin: 100% 0;
+    width: 100%;
+    padding-top: 100%;
+    height: 0;
+    border-radius: 50% !important;
+    border: none;
+    background: #fff;
+    transition: background ease 0.2s;
+    cursor: pointer;
+  }
+
+  &__item.is-active {
+    background: #333;
+  }
+}
+
+/* pagiantion */
+
+.swiper-plugin-navigation-prevEl,
+.swiper-plugin-navigation-nextEl {
+  display: block;
+  position: absolute;
+  top: 50%;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 10, 255);
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: crosshair;
+
+  &.swiper-button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.swiper-plugin-navigation-prevEl {
+  left: 20px;
+}
+
+.swiper-plugin-navigation-nextEl {
+  right: 20px;
+}
+
+/* tiny slider */
+
+
+.square-img{
+  height: 100%;
+}
+
+/* #playerchina{
+  width: 100%;
+  height: 100px;
+} */
+
+
+.space{
+  height: 1rem;
+  width: 100%;
+}
+
+.text-stone{
+  font-size: 11px;
+  color: rgb(84, 64, 50);
+  /* background: rgba(232, 226, 226, 0.35); */
+}
+
+.text-taiwan{
+  font-size: 16px;
+  color: rgb(255, 23, 0);
+  /* background: rgba(232, 226, 226, 0.35); */
+  /* background: black; */
+  /* border-top: dotted 1px red; */
+}
+
+.text-green{
+  color: rgb(17, 94, 11);
+    /* background: rgba(232, 226, 226, 0.35); */
+}
+
+.info-text{
+  font-size: 13px;
+}
+
+/* willful-garden intro */
+left-intro{
+  font-size: 13px;
+  color: rgba(255, 122, 238, 0.99);
+}
+
+.garden-info{
+  font-size: 13.5px;
+  color: red;
+}
+
+.quote{
+  font-style: italic;
+  display: inline-block;
+  padding-left:3%;
+  color: rgb(249, 77, 31);
+}
+
+
+
+@keyframes airplane {
+  from {
+    right: 0rem;
+  }
+
+  to {
+    right: 100vw;
+  }
+  }
+
+  @keyframes rotation {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+  }
+
+/* 手機版
+書變成橫擺在最上方
+right變成100% */
+
+@media screen and (max-width: 1024px) {
+
+  .menu {
+     transform: rotate(2deg);
+  }
+
+  .books {
+    width: 85%;
+  }
+
+  .info-text{
+    font-size: 12px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 200%;
+  }
+
+    .drag{
+      display: none;
+    }
+
+    .responsive-logo{
+      display: block;
+      color: rgb(0, 10, 255);
+      position: fixed;
+      top: 0;
+      left: 2%;
+      font-size: 20px
+    }
+
+    .bookshelf {
+      /* background: rgb(231, 217, 118); */
+      display: none;
+    }
+
+    .books {
+      display: block;
+      flex-direction: row;
+      width: 98%;
+      top: 2rem;
+    }
+
+    .book-cover{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-flow: wrap;
+    }
+
+    .info{
+      width: 100%;
+      text-align: left;
+      font-size: 15px;
+    }
+
+    .info-title{
+    font-size: 15px;
+    }
+
+    .space{
+      height: 10px;
+    }
+
+    .info-text{
+      font-size: 10px;
+    }
+  }
