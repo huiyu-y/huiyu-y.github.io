@@ -76,6 +76,19 @@ var swiper3 = new Swiper(".swiper3", {
   plugins: [SwiperPluginNavigation]
 });
 
+var swiper4 = new Swiper(".swiper4", {
+  mousewheel: {
+    invert: false,
+    interval: 400
+  },
+  // navigation: {
+  //   prevEl: ".navigation-prevEl4",
+  //   nextEl: ".navigation-nextEl4"
+  // },
+  plugins: [SwiperPluginNavigation]
+});
+
+
 
 var swiper11 = new Swiper(".swiper11", {
   mousewheel: {
