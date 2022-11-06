@@ -84,8 +84,14 @@ img{
     font-size: 200%;
       }
 
+      #X {
+        position: absolute;
+        top: 3%;
+        left: 0rem;
+      }
+
 .container{
-  padding: 10% 0 0 0 ;
+  margin: 10% 0 0 0 ;
 }
 
 .intro{
