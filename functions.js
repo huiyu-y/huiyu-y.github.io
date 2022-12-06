@@ -1,3 +1,4 @@
+
 $( "#ifr" ).hide();
 
 $( "#ifr" ).hide();
@@ -39,6 +40,10 @@ $("#eye-b").click(function(){
 });
 
 $("#page-b").click(function(){
+  $("#ifr").show();
+});
+
+$("#crit-b").click(function(){
   $("#ifr").show();
 });
 
