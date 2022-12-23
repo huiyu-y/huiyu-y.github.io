@@ -51,6 +51,10 @@ $("#beatles").click(function(){
   $("#ifr").show();
 });
 
+$("#mythesis-b").click(function(){
+  $("#ifr").show();
+});
+
 
 // $( "#peace-intro" ).hide();
 // $("#peace").click(function(){
