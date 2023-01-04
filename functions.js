@@ -21,9 +21,11 @@ $("#window").click(function(){
 $( ".about-hover" ).hide();
 $(".about").hover(function(){
   $(".about-hover").show();
+  $(".email").hide();
 });
 $(".about").mouseleave(function(){
   $(".about-hover").hide();
+  $(".email").show();
 });
 
 
