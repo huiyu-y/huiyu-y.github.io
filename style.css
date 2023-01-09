@@ -138,12 +138,21 @@ img {
   height: auto;
 }
 
-.img-32 {
+.img-20 {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
   display: block;
   width: 20%;
+  height: auto;
+}
+
+.img-25 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 25%;
   height: auto;
 }
 
@@ -452,12 +461,17 @@ z-index: 999;
     height: auto;
   }
 
-  .img-32 {
+  .img-20 {
     display: block;
     width: 10%;
     height: auto;
   }
 
+  .img-25 {
+    display: block;
+    width: 15%;
+    height: auto;
+  }
    .img-1{
    width: 20%;
    align-self: center;
