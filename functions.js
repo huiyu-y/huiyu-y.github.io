@@ -61,6 +61,14 @@ $("#FF-b").click(function(){
   $("#ifr").show();
 });
 
+$("#green").click(function(){
+  $("#ifr").show();
+});
+
+$("#25mars").click(function(){
+  $("#ifr").show();
+});
+
 
 // $( "#peace-intro" ).hide();
 // $("#peace").click(function(){
