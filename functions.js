@@ -56,6 +56,10 @@ $("#mythesis-b").click(function(){
   $("#ifr").show();
 });
 
+$("#mythesis-script-b").click(function(){
+  $("#ifr").show();
+});
+
 $("#FF-b").click(function(){
   $("#ifr").show();
 });

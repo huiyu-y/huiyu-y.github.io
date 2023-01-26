@@ -70,6 +70,10 @@ img{
   align-items: flex-start;
 }
 
+.info-img{
+width: 50%;
+}
+
 .video{
   display: flex;
   flex-direction: row;
