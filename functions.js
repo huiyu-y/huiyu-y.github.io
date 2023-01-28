@@ -160,13 +160,25 @@ const options = {
   };
 
 
+  // $(window).resize(function(){
+  //   if($(window).width() < 740){
+  //     $('#mythesis-script-b').hide();
+  //   }else{
+  //     if($('#mythesis-script-b').is(':hidden'){
+  //       $('#mythesis-script-b-1').show();
+  //     }
+  //   }
+  // });
+  // $(window).trigger('resize');
+ //so the resize function runs on-load
+
 // const playerwindowPlayer = new Vimeo.Player('playeruntitled', options);
 
-const playercatPlayer = new Vimeo.Player('playercat', options);
-
-const playerchinaPlayer = new Vimeo.Player('playerchina', options);
-
-const playeruntitledPlayer = new Vimeo.Player('playeruntitled', options);
+// const playercatPlayer = new Vimeo.Player('playercat', options);
+//
+// const playerchinaPlayer = new Vimeo.Player('playerchina', options);
+//
+// const playeruntitledPlayer = new Vimeo.Player('playeruntitled', options);
 
 
 
@@ -174,7 +186,7 @@ const playeruntitledPlayer = new Vimeo.Player('playeruntitled', options);
 //
 // const playerennoPlayer = new Vimeo.Player('playerenno', options);
 //
-const playernnnPlayer = new Vimeo.Player('playernnn', options);
+// const playernnnPlayer = new Vimeo.Player('playernnn', options);
 
 // const playerstonePlayer = new Vimeo.Player('playerstone', options);
 //
