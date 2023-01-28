@@ -138,11 +138,6 @@ $("#lan").click(function(){
 //   $("#taipeiny-b").toggle();
 // });
 
-$( "#taipeiny-img-2" ).hide();
-$("#taipeiny-img").click(function(){
-  $("#taipeiny-img-1").toggle();
-  $("#taipeiny-img-2").toggle();
-});
 
 // $( "#hat-intro" ).hide();
 // $("#hat").click(function(){
