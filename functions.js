@@ -60,6 +60,11 @@ $("#mythesis-script-b").click(function(){
   $("#ifr").show();
 });
 
+$("#mythesis-script-b-1").click(function(){
+  $("#ifr").show();
+});
+
+
 $("#FF-b").click(function(){
   $("#ifr").show();
 });
@@ -68,10 +73,18 @@ $("#green").click(function(){
   $("#ifr").show();
 });
 
+$("#green-1").click(function(){
+  $("#ifr").show();
+});
+
 $("#25mars").click(function(){
   $("#ifr").show();
 });
 
+
+$("#25mars-1").click(function(){
+  $("#ifr").show();
+});
 
 // $( "#peace-intro" ).hide();
 // $("#peace").click(function(){
