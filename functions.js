@@ -13,6 +13,10 @@ $("#stone").click(function(){
   $("#ifr").show();
 });
 
+$("#stone-1").click(function(){
+  $("#ifr").show();
+});
+
 $("#window").click(function(){
   $("#ifr").show();
 });
@@ -49,6 +53,10 @@ $("#crit-b").click(function(){
 });
 
 $("#beatles").click(function(){
+  $("#ifr").show();
+});
+
+$("#thesisbook-b").click(function(){
   $("#ifr").show();
 });
 
@@ -157,28 +165,16 @@ $("#lan").click(function(){
 //   $("#hat-intro").toggle();
 // });
 
-const options = {
-    title: false,
-    portrait: false,
-    byline: false,
-    controls: false,
-    loop: true,
-    color: '000000',
-    maxwidth: 500
-  };
+// const options = {
+//     title: false,
+//     portrait: false,
+//     byline: false,
+//     controls: false,
+//     loop: true,
+//     color: '000000',
+//     maxwidth: 500
+//   };
 
-
-  // $(window).resize(function(){
-  //   if($(window).width() < 740){
-  //     $('#mythesis-script-b').hide();
-  //   }else{
-  //     if($('#mythesis-script-b').is(':hidden'){
-  //       $('#mythesis-script-b-1').show();
-  //     }
-  //   }
-  // });
-  // $(window).trigger('resize');
- //so the resize function runs on-load
 
 // const playerwindowPlayer = new Vimeo.Player('playeruntitled', options);
 
