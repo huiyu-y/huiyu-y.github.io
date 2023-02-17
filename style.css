@@ -250,7 +250,7 @@ z-index: 999;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  grid-gap: 4%;
+  grid-gap: 3.2%;
   align-items: flex-start;
   justify-content: center;
 }
