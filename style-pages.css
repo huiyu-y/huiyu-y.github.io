@@ -65,7 +65,7 @@ img{
   flex-direction: column;
   flex-wrap: nowrap;
   width: 55%;
-  grid-gap: 4px;
+  grid-gap: 10px;
   justify-content: center;
   align-items: flex-start;
 }
