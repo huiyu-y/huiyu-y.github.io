@@ -52,7 +52,7 @@ a:visited {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #e2e2e2;
 }
 
 /* Handle */
@@ -72,12 +72,12 @@ img {
 
 .iframe {
   position: absolute;
-  top: 70%;
+  top: 71.5%;
   left: 80%;
   transform: translate(-80%, -70%);
   z-index: 999;
-  width: 94vw;
-  height: 91vh;
+  width: 96vw;
+  height: 92vh;
   border: 0.5px solid #000000;
   background: rgba(255, 255, 255);
   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.56);
@@ -95,23 +95,13 @@ img {
   top: 0;
   left: 0rem;
   color: rgb(7, 3, 191);
-  background: rgb(255, 255, 255);
   border: none;
-  width: 20px;
-  height: 20px;
-  text-align: center;
   cursor: crosshair;
-  font-size: 1.2rem;
+  font-size: 0.85rem;
 }
 
 #playercat {
   width: 100%;
-}
-
-.img-96 {
-  display: block;
-  width: 95%;
-  height: auto;
 }
 
 .img-100 {
@@ -120,21 +110,9 @@ img {
   height: auto;
 }
 
-.img-42 {
-  display: block;
-  width: 42%;
-  height: auto;
-}
-
 .img-50 {
   display: block;
   width: 49%;
-  height: auto;
-}
-
-.img-r-100 {
-  display: block;
-  width: 100%;
   height: auto;
 }
 
@@ -197,6 +175,8 @@ img {
   /* padding: 1.2% 0 0 1%; */
   /* background: yellow; */
   z-index: 888;
+  filter: invert(1);
+  mix-blend-mode: difference;
 }
 
 .about {
@@ -206,27 +186,23 @@ img {
   text-decoration: underline;
   font-size: 15px;
   font-family: 'Cormorant Infant', serif;
-z-index: 999;
+  z-index: 999;
+  filter: invert(1);
+  mix-blend-mode: difference;
 }
 
 .about-hover {
-  position: relative;
-  height: auto;
-  width: 57.5%;
-  /* border: solid 1px rgb(0, 0, 0); */
-  /* position: fixed; */
-  /* right: 2%; */
-  top: 0;
-  left: 0;
-  padding: 1% 0 1% 0;
-  background: rgba(255, 255, 255);
-  color: rgb(0, 0, 0);
-  align-self: flex-start;
-  font-size: 15px;
+  color: black;
+  position: fixed;
+  top: 5%;
+  left: 0%;
+  padding: 0.9% 1% 1% 1%;
+  width: 58.5%;
+  font-size: 13px;
   font-family: 'Karla', sans-serif;
-
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 999;
 }
-
 
 .container-box {
   position: absolute;
@@ -242,6 +218,7 @@ z-index: 999;
   justify-content: center;
   align-items: flex-start;
   overflow-y: scroll;
+  background: white;
 }
 
 .container {
@@ -250,13 +227,13 @@ z-index: 999;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  grid-gap: 3.2%;
+  grid-gap: 3%;
   align-items: flex-start;
   justify-content: center;
 }
 
 .left {
-  width: 60%;
+  width: 59%;
   /* height: auto;
   display: flex;
   flex-direction: column;
@@ -268,7 +245,7 @@ z-index: 999;
 }
 
 .right {
-  width: 38.5%;
+  width: 37%;
   /* height: auto;
   display: flex;
   flex-direction: column;
@@ -286,7 +263,7 @@ z-index: 999;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin: 0% 0 8% 0%;
+  margin: 0% 0 7% 0%;
   justify-content: space-between;
     align-items: center;
     /* background: grey; */
@@ -297,7 +274,7 @@ z-index: 999;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin: 0% 0 11% 0%;
+  margin: 0% 0 10% 0%;
   justify-content: space-between;
     align-items: center;
 }
@@ -450,25 +427,6 @@ z-index: 999;
     height: auto;
   }
 
-  .img-96 {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .img-42 {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-
-  .img-r-100 {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
   .img-20 {
     display: block;
     width: 10%;
@@ -480,6 +438,7 @@ z-index: 999;
     width: 15%;
     height: auto;
   }
+
    .img-1{
    width: 20%;
    align-self: center;
@@ -521,13 +480,13 @@ z-index: 999;
     top: 3%;
     left: 0rem;
     color: rgb(7, 3, 191);
-    background: rgb(255, 255, 255);
     border: none;
     width: 10px;
     height: 10px;
     text-align: center;
     cursor: crosshair;
     font-size: 0.7rem;
+    /* background: black; */
   }
 
   #bunny2 {
