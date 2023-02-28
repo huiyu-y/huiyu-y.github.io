@@ -25,7 +25,7 @@ const options = {
     $(".swiper7").hide();
     $(".swiper8").hide();
     $("#a-09").hide();
-    $("#a-10").hide();
+    $(".swiper10").hide();
   });
 
 
@@ -144,10 +144,20 @@ const options = {
     $("#a-09").hide();
   });
 
+  var swiper10 = new Swiper(".swiper10", {
+    mousewheel: {
+      invert: false,
+      interval: 400
+    },
+    navigation: {
+      prevEl: ".navigation-prevEl10",
+      nextEl: ".navigation-nextEl10"
+    },
+    plugins: [SwiperPluginNavigation]
+  });
 
-
-  $("#a-10").hide();
+  $(".swiper10").hide();
   $("#b-10").click(function(){
-    $("#a-10").toggle();
+    $(".swiper10").toggle();
     $(".swiper8").hide();
   });
