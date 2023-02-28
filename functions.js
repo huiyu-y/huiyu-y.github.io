@@ -95,6 +95,10 @@ $("#25mars-1").click(function(){
   $("#ifr").show();
 });
 
+$("#28-b").click(function(){
+  $("#ifr").show();
+});
+
 // $( "#peace-intro" ).hide();
 // $("#peace").click(function(){
 //   $("#peace-intro").toggle();
