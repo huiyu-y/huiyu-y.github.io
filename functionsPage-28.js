@@ -120,6 +120,12 @@ const options = {
     $(".swiper3").hide();
   });
 
+  $("#a-09").hide();
+  $("#b-09").click(function(){
+    $("#a-09").toggle();
+    $(".swiper7").hide();
+  });
+
   var swiper8 = new Swiper(".swiper8", {
     mousewheel: {
       invert: false,
@@ -135,17 +141,13 @@ const options = {
   $(".swiper8").hide();
   $("#b-08").click(function(){
     $(".swiper8").toggle();
-    $(".swiper7").hide();
+    $("#a-09").hide();
   });
 
-  $("#a-09").hide();
-  $("#b-09").click(function(){
-    $("#a-09").toggle();
-    $(".swiper8").hide();
-  });
+
 
   $("#a-10").hide();
   $("#b-10").click(function(){
     $("#a-10").toggle();
-    $("#a-09").hide();
+    $(".swiper8").hide();
   });

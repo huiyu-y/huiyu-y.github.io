@@ -72,12 +72,12 @@ img {
 
 .iframe {
   position: absolute;
-  top: 71.5%;
+  top: 72.5%;
   left: 80%;
   transform: translate(-80%, -70%);
   z-index: 999;
   width: 96vw;
-  height: 92vh;
+  height: 93vh;
   border: 0.5px solid #000000;
   background: rgba(255, 255, 255);
   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.56);
