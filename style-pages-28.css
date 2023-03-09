@@ -221,6 +221,15 @@ width: 100%;
   }
 }
 
+.swiper-lazy {
+ display: block;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ opacity: 0;
+ transition-property: none;
+}
+
 /* pagiantion */
 
 .swiper-plugin-navigation-prevEl,
