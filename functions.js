@@ -1,9 +1,13 @@
 $( "#ifr" ).hide();
 
-$( "#ifr" ).hide();
+
 $("#thesis").click(function(){
   $("#ifr").show();
 });
+
+$("#thesis-i").click(function(){
+  $("#ifr").show();
+})
 
 $("#jidoka").click(function(){
   $("#ifr").show();
@@ -13,11 +17,24 @@ $("#stone").click(function(){
   $("#ifr").show();
 });
 
+$("#stone-i").click(function(){
+  $("#ifr").show();
+});
+
 $("#stone-1").click(function(){
   $("#ifr").show();
 });
 
+$("#stone-1-i").click(function(){
+  $("#ifr").show();
+});
+
+
 $("#window").click(function(){
+  $("#ifr").show();
+});
+
+$("#window-i").click(function(){
   $("#ifr").show();
 });
 
@@ -41,7 +58,15 @@ $("#cat-b").click(function(){
   $("#ifr").show();
 });
 
+$("#cat-b-i").click(function(){
+  $("#ifr").show();
+});
+
 $("#eye-b").click(function(){
+  $("#ifr").show();
+});
+
+$("#eye-b-i").click(function(){
   $("#ifr").show();
 });
 
@@ -49,7 +74,15 @@ $("#page-b").click(function(){
   $("#ifr").show();
 });
 
+$("#page-b-i").click(function(){
+  $("#ifr").show();
+});
+
 $("#crit-b").click(function(){
+  $("#ifr").show();
+});
+
+$("#crit-b-i").click(function(){
   $("#ifr").show();
 });
 
@@ -61,7 +94,15 @@ $("#thesisbook-b").click(function(){
   $("#ifr").show();
 });
 
+$("#thesisbook-b-i").click(function(){
+  $("#ifr").show();
+});
+
 $("#mythesis-b").click(function(){
+  $("#ifr").show();
+});
+
+$("#mythesis-b-i").click(function(){
   $("#ifr").show();
 });
 
@@ -69,7 +110,15 @@ $("#mythesis-script-b").click(function(){
   $("#ifr").show();
 });
 
+$("#mythesis-script-b-i").click(function(){
+  $("#ifr").show();
+});
+
 $("#mythesis-script-b-1").click(function(){
+  $("#ifr").show();
+});
+
+$("#mythesis-script-b-1-i").click(function(){
   $("#ifr").show();
 });
 
@@ -78,7 +127,23 @@ $("#FF-b").click(function(){
   $("#ifr").show();
 });
 
+$("#FF-b-i").click(function(){
+  $("#ifr").show();
+});
+
+$("#FF-b-1").click(function(){
+  $("#ifr").show();
+});
+
+$("#FF-b-1-i").click(function(){
+  $("#ifr").show();
+});
+
 $("#green").click(function(){
+  $("#ifr").show();
+});
+
+$("#green-i").click(function(){
   $("#ifr").show();
 });
 
@@ -86,7 +151,15 @@ $("#green-1").click(function(){
   $("#ifr").show();
 });
 
+$("#green-1-i").click(function(){
+  $("#ifr").show();
+});
+
 $("#25mars").click(function(){
+  $("#ifr").show();
+});
+
+$("#25mars-i").click(function(){
   $("#ifr").show();
 });
 
@@ -95,7 +168,16 @@ $("#25mars-1").click(function(){
   $("#ifr").show();
 });
 
+$("#25mars-1-i").click(function(){
+  $("#ifr").show();
+});
+
+
 $("#28-b").click(function(){
+  $("#ifr").show();
+});
+
+$("#28-b-i").click(function(){
   $("#ifr").show();
 });
 
