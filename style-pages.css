@@ -70,7 +70,7 @@ img{
   width: 64%;
   grid-gap: 10px;
   justify-content:flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .info-img{
@@ -88,6 +88,10 @@ width: 50%;
 
 .img-50{
   width: 49%;
+}
+
+.img-70{
+  width: 80%;
 }
 
 .img-100{
