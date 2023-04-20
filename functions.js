@@ -29,6 +29,23 @@ $("#stone-1-i").click(function(){
   $("#ifr").show();
 });
 
+$("#likely").click(function(){
+  $("#ifr").show();
+});
+
+$("#likely-i").click(function(){
+  $("#ifr").show();
+});
+
+
+$("#likely-1").click(function(){
+  $("#ifr").show();
+});
+
+$("#likely-1-i").click(function(){
+  $("#ifr").show();
+});
+
 
 $("#window").click(function(){
   $("#ifr").show();
