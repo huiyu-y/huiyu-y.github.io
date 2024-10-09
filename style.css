@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 1%;
   top: 0;
   overflow: hidden;
   /* background: rgb(242, 242, 242); */
@@ -166,6 +166,13 @@ img {
   top: 0;
 }
 
+.simplified-2024{
+  position: relative;
+  left: 50%;
+  transform: translate(-50% -50%);
+
+}
+
 
 .middle {
   position: fixed;
@@ -202,6 +209,7 @@ img {
   border-style: solid;
   border-color: black;
   margin-right: 0.8%;
+
 }
 
 .about-hover {
@@ -478,6 +486,7 @@ img {
     border: none;
     background: rgba(255, 255, 255);
     box-shadow: none;
+
   }
 
 
