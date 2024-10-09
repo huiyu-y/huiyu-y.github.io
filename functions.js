@@ -1,3 +1,5 @@
+
+
 $( "#ifr" ).hide();
 
 
@@ -67,9 +69,9 @@ $(".about").mouseleave(function(){
 });
 
 
-$("#bunny").click(function(){
-  $("#ifr").show();
-});
+// $("#bunny").click(function(){
+//   $("#ifr").show();
+// });
 
 $("#cat-b").click(function(){
   $("#ifr").show();
@@ -156,38 +158,38 @@ $("#FF-b-1-i").click(function(){
   $("#ifr").show();
 });
 
-$("#green").click(function(){
-  $("#ifr").show();
-});
-
-$("#green-i").click(function(){
-  $("#ifr").show();
-});
-
-$("#green-1").click(function(){
-  $("#ifr").show();
-});
-
-$("#green-1-i").click(function(){
-  $("#ifr").show();
-});
-
-$("#25mars").click(function(){
-  $("#ifr").show();
-});
-
-$("#25mars-i").click(function(){
-  $("#ifr").show();
-});
-
-
-$("#25mars-1").click(function(){
-  $("#ifr").show();
-});
-
-$("#25mars-1-i").click(function(){
-  $("#ifr").show();
-});
+// $("#green").click(function(){
+//   $("#ifr").show();
+// });
+//
+// $("#green-i").click(function(){
+//   $("#ifr").show();
+// });
+//
+// $("#green-1").click(function(){
+//   $("#ifr").show();
+// });
+//
+// $("#green-1-i").click(function(){
+//   $("#ifr").show();
+// });
+//
+// $("#25mars").click(function(){
+//   $("#ifr").show();
+// });
+//
+// $("#25mars-i").click(function(){
+//   $("#ifr").show();
+// });
+//
+//
+// $("#25mars-1").click(function(){
+//   $("#ifr").show();
+// });
+//
+// $("#25mars-1-i").click(function(){
+//   $("#ifr").show();
+// });
 
 
 $("#28-b").click(function(){
@@ -197,6 +199,15 @@ $("#28-b").click(function(){
 $("#28-b-i").click(function(){
   $("#ifr").show();
 });
+
+hs.registerOverlay({
+  thumbnailId: null,
+  useOnHtml: true,
+  overlayId: 'X',
+  position: 'top left',
+});
+
+
 
 // $( "#peace-intro" ).hide();
 // $("#peace").click(function(){
@@ -235,23 +246,24 @@ $("#28-b-i").click(function(){
 //   $("#wb-2").toggle();
 // });
 
-$( "#sheet-1" ).hide();
-$("#sheet").click(function(){
-  $("#sheet-1").toggle();
-  $("#sheet-2").toggle();
-});
+// $( "#sheet-1" ).hide();
+// $("#sheet").click(function(){
+//   $("#sheet-1").toggle();
+//   $("#sheet-2").toggle();
+// });
 
-$( "#bookas-1" ).hide();
-$("#bookas").click(function(){
-  $("#bookas-1").toggle();
-  $("#bookas-2").toggle();
-});
+// $( "#bookas-1" ).hide();
+// $("#bookas").click(function(){
+//   $("#bookas-1").toggle();
+//   $("#bookas-2").toggle();
+// });
 
-$( "#lan-2" ).hide();
-$("#lan").click(function(){
-  $("#lan-1").toggle();
-  $("#lan-2").toggle();
-});
+// $( "#lan-2" ).hide();
+// $("#lan").click(function(){
+//   $("#lan-1").toggle();
+//   $("#lan-2").toggle();
+// });
+
 
 // $( "#yoyo-intro" ).hide();
 // $("#yoyo").click(function(){
